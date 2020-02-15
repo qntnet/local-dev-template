@@ -10,7 +10,7 @@ And and start it.
 ## Conda environment
 After that, create a new conda environment.
 ```bash
-$ conda create --name localdev jupyter quantnet::qnt conda-forge::python-avro=1.8 plotly memory_profiler ipykernel=4.9.0
+conda create --name localdev jupyter quantnet::qnt conda-forge::python-avro=1.8 plotly memory_profiler ipykernel=4.9
 ```
 
 Later you can remove it using this command: `$ conda remove --name localdev --all` .
